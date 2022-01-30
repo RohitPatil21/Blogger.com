@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+nav {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    /* background-color: rgb(255, 102, 0); */
+    /* box-shadow: 0px 0px 1px #FFFFFF; */
+}
+
+.logo {
+    color: orange;
+}
+
+.inputBox {
+    width: 15rem;
+    padding: 8px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.menu-items {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.item {
+    cursor: pointer;
+    letter-spacing: 1px;
+    /* opacity: 80%; */
+    font-size: 1.1rem;
+
+}
+
+/* .item:hover {
+    color: rgb(0, 255, 21);
+} */
+
+.item:active {
+    transform: scale(1.1);
+}
+
+/* -------------------------- Header ----------------------------- */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.576), rgba(0, 0, 0, 0.7)),url("https://mcdn.wallpapersafari.com/medium/70/33/XzIMHc.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 90%;
+    color: #FFFFFF;
+    flex-direction: column;
+    letter-spacing: 1px;
+    gap: 2vh;
+}
+
+.heading {
+    font-size: 3rem;
+    opacity: 80%;
+    color: orange;
+}
+
+.sub-heading {
+    font-weight: 100;
+}
+
+/* ------------------------ Container ---------------------------- */
+
+.container {
+    /* background-color: rgb(204, 203, 203); */
+    width: 80vw;
+    /* height: 100vh; */
+    margin: auto;
+    padding-top: 2rem;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 2vh;
+    box-shadow: 0px 0px 1px;
+    margin-bottom: 3rem;
+}
+
+.inputText {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px grey;
+    padding: 1rem;
+    letter-spacing: 2px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    margin-top: 1rem;
+}
+
+.add-post-btn {
+    background-color: green;
+    width: 10rem;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.delete-post-btn {
+    background-color: rgb(179, 2, 2);
+    width: 10rem;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+/*------------------------------ posts -------------------- */
+.post-container {
+    width: 80vw;
+    margin: auto;
+    /* background-color: grey; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+#postDiv {
+    width: 90%;
+    /* background-color: rgb(168, 165, 165); */
+    /* height:50vh; */
+    margin: auto;
+    box-shadow: 0px 0px 2px grey;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+}
+
+#post {
+    font-size: 1.3rem;
+    width: 80%;
+    background-color: #FFFFFF;
+    overflow-wrap: break-word;
+    
+}
+
+#btnPostDiv {
+    /* background-color: red; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+}
+
+#btnUpdate, #btnDelete {
+    font-size: 1.2rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0px 0px 1px ;
+}
+
+
+#btnUpdate:active,  #btnDelete:active{
+    transform: scale(1.1);
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    letter-spacing: 2px;
+    opacity: 80%;
+}
+
+
+
+
+
+
